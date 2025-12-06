@@ -1,0 +1,41 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #00000000;
+  color: #ffffff;
+  font-size: 2em;
+}
+
+#clock {
+  font-size: 5em;
+  font-weight: bold;
+}
+
+#label {
+  font-size: 1.5em;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.btn-group button {
+  margin: 5px;
+  font-size: 1em;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#progress {
+  width: 100%;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.2);
+  margin-bottom: 20px;
+}
+
+#progress-value {
+  height: 100%;
+  background: #ffffff;
+  width: 0%;
+  transition: width 1s linear;
+}
